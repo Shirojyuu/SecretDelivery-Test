@@ -9,20 +9,53 @@ public class Player : MonoBehaviour {
     private Animator anim;
 
     private bool grounded;
+
 	// Use this for initialization
-	void Start () {
+	void Start () 
+    {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+    {
+        //Ground Check  
+        Vector2 checkPos = new Vector2(transform.position.x, transform.position.y - GetComponent<BoxCollider2D>().bounds.size.y / 2);
+        RaycastHit2D groundCheck = Physics2D.Raycast(checkPos, -1.0f * Vector2.up, 5.0f);
+
+            if (groundCheck != null && groundCheck.collider.tag.Equals("Walkable"))
+            {
+                Debug.Log(groundCheck.collider);
+                grounded = true;
+            }
+
+            anim.SetBool("Grounded", grounded);
+
+        Debug.Log(grounded);
+	}
+
+    void FixedUpdate()
+    {
+        //Horizontal Movement
         float xMove = Input.GetAxisRaw("Horizontal");
+
+        if(xMove < 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+        }
+
+        if(xMove > 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+
+        }
         anim.SetFloat("XSpeed", Mathf.Abs(xMove * speed));
         Vector3 totalMovement = new Vector3(xMove * speed, 0, 0);
         rb.AddForce(totalMovement);
 
-        if(Input.GetButtonDown("Jump") && grounded)
+        //Jumping
+        if (Input.GetButtonDown("Jump") && grounded)
         {
             rb.velocity = new Vector3(rb.velocity.x, jumpStrength, 0);
             anim.SetTrigger("Jump");
@@ -30,18 +63,5 @@ public class Player : MonoBehaviour {
             anim.SetBool("Grounded", grounded);
 
         }
-
-        RaycastHit2D[] groundCheck = Physics2D.RaycastAll(transform.position, Vector2.up * -5.0f, -5.0f, LayerMask.NameToLayer("Environment"));
-
-        for (int i = 0; i < groundCheck.Length; i++)
-        {
-            if (groundCheck[i].transform.tag.Equals("Walkable"))
-            {
-                Debug.Log(groundCheck[i].collider);
-                grounded = true;
-                anim.SetBool("Grounded", grounded);
-            }
-        }
-        Debug.Log(grounded);
-	}
+    }
 }
