@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: 89185118a43cf0940984373ac4d9cbf0
+timeCreated: 1483952863
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: JumpSheet_0
+    21300002: JumpSheet_1
+    21300004: JumpSheet_2
+    21300006: JumpSheet_3
+    21300008: JumpSheet_4
+    21300010: JumpSheet_5
+    21300012: JumpSheet_6
+    21300014: JumpSheet_7
+    21300016: JumpSheet_8
+    21300018: JumpSheet_9
+    21300020: JumpSheet_10
+    21300022: JumpSheet_11
+    21300024: JumpSheet_12
+    21300026: JumpSheet_13
+    21300028: JumpSheet_14
+    21300030: JumpSheet_15
+    21300032: JumpSheet_16
+    21300034: JumpSheet_17
+    21300036: JumpSheet_18
+    21300038: JumpSheet_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JumpSheet_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2574
+        width: 400
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_1
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 2574
+        width: 316
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2573
+        width: 301
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 2565
+        width: 297
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1924
+        width: 322
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_5
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1924
+        width: 315
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1924
+        width: 317
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1927
+        width: 324
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1290
+        width: 330
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_9
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1291
+        width: 339
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_10
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1292
+        width: 350
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1293
+        width: 363
+        height: 606
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 655
+        width: 372
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_13
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 657
+        width: 387
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_14
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 660
+        width: 406
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 660
+        width: 417
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_16
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 20
+        width: 417
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_17
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 20
+        width: 417
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_18
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 20
+        width: 417
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: JumpSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 20
+        width: 417
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

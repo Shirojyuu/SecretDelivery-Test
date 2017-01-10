@@ -1,0 +1,409 @@
+fileFormatVersion: 2
+guid: dce9dec0ca713704686090a117f3df5e
+timeCreated: 1483952954
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WalkingSheet_0
+    21300002: WalkingSheet_1
+    21300004: WalkingSheet_2
+    21300006: WalkingSheet_3
+    21300008: WalkingSheet_4
+    21300010: WalkingSheet_5
+    21300012: WalkingSheet_6
+    21300014: WalkingSheet_7
+    21300016: WalkingSheet_8
+    21300018: WalkingSheet_9
+    21300020: WalkingSheet_10
+    21300022: WalkingSheet_11
+    21300024: WalkingSheet_12
+    21300026: WalkingSheet_13
+    21300028: WalkingSheet_14
+    21300030: WalkingSheet_15
+    21300032: WalkingSheet_16
+    21300034: WalkingSheet_17
+    21300036: WalkingSheet_18
+    21300038: WalkingSheet_19
+    21300040: WalkingSheet_20
+    21300042: WalkingSheet_21
+    21300044: WalkingSheet_22
+    21300046: WalkingSheet_23
+    21300048: WalkingSheet_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WalkingSheet_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3755
+        width: 442
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 3753
+        width: 446
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_2
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 3749
+        width: 446
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 3747
+        width: 441
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3130
+        width: 432
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_5
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 3119
+        width: 431
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_6
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 3109
+        width: 431
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 3100
+        width: 431
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2475
+        width: 431
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_9
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 2471
+        width: 433
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_10
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 2469
+        width: 433
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 2471
+        width: 431
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1860
+        width: 430
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_13
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1864
+        width: 433
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_14
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1871
+        width: 433
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1879
+        width: 450
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1273
+        width: 464
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_17
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1281
+        width: 465
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_18
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1277
+        width: 450
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1264
+        width: 435
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 643
+        width: 432
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_21
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 633
+        width: 433
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_22
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 626
+        width: 425
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 631
+        width: 418
+        height: 587
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WalkingSheet_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 35
+        width: 411
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

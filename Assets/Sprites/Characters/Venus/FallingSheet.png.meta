@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: 1822098092edbcf4abaa2314468bf622
+timeCreated: 1483953009
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FallingSheet_0
+    21300002: FallingSheet_1
+    21300004: FallingSheet_2
+    21300006: FallingSheet_3
+    21300008: FallingSheet_4
+    21300010: FallingSheet_5
+    21300012: FallingSheet_6
+    21300014: FallingSheet_7
+    21300016: FallingSheet_8
+    21300018: FallingSheet_9
+    21300020: FallingSheet_10
+    21300022: FallingSheet_11
+    21300024: FallingSheet_12
+    21300026: FallingSheet_13
+    21300028: FallingSheet_14
+    21300030: FallingSheet_15
+    21300032: FallingSheet_16
+    21300034: FallingSheet_17
+    21300036: FallingSheet_18
+    21300038: FallingSheet_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FallingSheet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2549
+        width: 416
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2549
+        width: 432
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_2
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 2549
+        width: 446
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 2550
+        width: 417
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1915
+        width: 378
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1915
+        width: 372
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_6
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1915
+        width: 371
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1915
+        width: 372
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1281
+        width: 371
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_9
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1281
+        width: 372
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_10
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1281
+        width: 371
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1281
+        width: 372
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 648
+        width: 371
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_13
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 648
+        width: 372
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_14
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 648
+        width: 371
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 648
+        width: 372
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_16
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 13
+        width: 371
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_17
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 13
+        width: 372
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_18
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 13
+        width: 371
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FallingSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 13
+        width: 372
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

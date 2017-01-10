@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: be34468a170486a4e84718e50f9388b7
+timeCreated: 1483952921
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LandingSheet_0
+    21300002: LandingSheet_1
+    21300004: LandingSheet_2
+    21300006: LandingSheet_3
+    21300008: LandingSheet_4
+    21300010: LandingSheet_5
+    21300012: LandingSheet_6
+    21300014: LandingSheet_7
+    21300016: LandingSheet_8
+    21300018: LandingSheet_9
+    21300020: LandingSheet_10
+    21300022: LandingSheet_11
+    21300024: LandingSheet_12
+    21300026: LandingSheet_13
+    21300028: LandingSheet_14
+    21300030: LandingSheet_15
+    21300032: LandingSheet_16
+    21300034: LandingSheet_17
+    21300036: LandingSheet_18
+    21300038: LandingSheet_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LandingSheet_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2513
+        width: 498
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_1
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2513
+        width: 513
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2513
+        width: 525
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 2503
+        width: 536
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1860
+        width: 546
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1873
+        width: 530
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1893
+        width: 508
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1893
+        width: 478
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1274
+        width: 440
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_9
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1274
+        width: 427
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1274
+        width: 427
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 1274
+        width: 427
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_12
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 653
+        width: 427
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_13
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 653
+        width: 427
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 653
+        width: 427
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 653
+        width: 427
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 33
+        width: 427
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_17
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 33
+        width: 427
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 33
+        width: 427
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LandingSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 33
+        width: 427
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
