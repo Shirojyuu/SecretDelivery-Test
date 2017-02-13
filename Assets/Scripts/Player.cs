@@ -4,8 +4,12 @@ using System.Collections;
 public class Player : MonoBehaviour {
     public float speed;
     public float runningSpeed;
+    public float slideForce;
     public float checkDist = 3.0f;
     public int jumpStrength;
+
+    public Vector2 defaultColSize;
+    public Vector2 slideColSize;
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -20,6 +24,8 @@ public class Player : MonoBehaviour {
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        GetComponent<BoxCollider2D>().bounds.size.Set(defaultColSize.x, defaultColSize.y, 0);
 	}
 	
 	// Update is called once per frame
@@ -84,6 +90,19 @@ public class Player : MonoBehaviour {
             speedMod = 1.0f;
             running = false;
             anim.SetBool("Running", running);
+        }
+
+        //Slide!
+        if(Input.GetButtonDown("SlideButton") && grounded)
+        {
+            if(GetComponent<SpriteRenderer>().flipX)
+                rb.velocity = new Vector3(-slideForce, rb.velocity.y, 0);
+
+            if (!GetComponent<SpriteRenderer>().flipX)
+                rb.velocity = new Vector3(slideForce, rb.velocity.y, 0);
+            anim.SetTrigger("Slide");
+            GetComponent<BoxCollider2D>().bounds.size.Set(slideColSize.x, slideColSize.y, 0);
+
         }
     }
 }

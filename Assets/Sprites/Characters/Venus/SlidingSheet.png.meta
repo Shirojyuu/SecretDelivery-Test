@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 52d46381ed8ef344fb2bb4f86dd7fd99
+timeCreated: 1486964114
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SlidingSheet_0
+    21300002: SlidingSheet_1
+    21300004: SlidingSheet_2
+    21300006: SlidingSheet_3
+    21300008: SlidingSheet_4
+    21300010: SlidingSheet_5
+    21300012: SlidingSheet_6
+    21300014: SlidingSheet_7
+    21300016: SlidingSheet_8
+    21300018: SlidingSheet_9
+    21300020: SlidingSheet_10
+    21300022: SlidingSheet_11
+    21300024: SlidingSheet_12
+    21300026: SlidingSheet_13
+    21300028: SlidingSheet_14
+    21300030: SlidingSheet_15
+    21300032: SlidingSheet_16
+    21300034: SlidingSheet_17
+    21300036: SlidingSheet_18
+    21300038: SlidingSheet_19
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SlidingSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1730
+        width: 799
+        height: 240
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_1
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1746
+        width: 798
+        height: 230
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1748
+        width: 793
+        height: 243
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 1751
+        width: 792
+        height: 247
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1346
+        width: 790
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_5
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1348
+        width: 789
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1351
+        width: 787
+        height: 255
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 1351
+        width: 787
+        height: 257
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 943
+        width: 787
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_9
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 943
+        width: 787
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 943
+        width: 787
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 943
+        width: 787
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 536
+        width: 787
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_13
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 536
+        width: 787
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 536
+        width: 789
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 536
+        width: 789
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 128
+        width: 789
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_17
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 100
+        width: 800
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 100
+        width: 800
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SlidingSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 100
+        width: 800
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
