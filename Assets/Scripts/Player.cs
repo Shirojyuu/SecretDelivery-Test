@@ -6,17 +6,15 @@ public class Player : MonoBehaviour {
     public float runningSpeed;
     public float slideForce;
     public float checkDist = 3.0f;
-    public int jumpStrength;
+    public float jumpBonus = 0.0f;
 
-    public float defaultColSize = 0.095f;
-    public float slideColSize = 0.98f;
+    public int jumpStrength;
 
     private Rigidbody2D rb;
     private Animator anim;
    
 
     private float speedMod = 1.0f;
-
     private bool grounded;
     private bool running;
 
@@ -86,7 +84,9 @@ public class Player : MonoBehaviour {
 
         HandleJump();
         HandleRun(xMove);
-        HandleSlide();   
+        HandleSlide();
+        //HandleFlight();
+
     }
 
     private void HandleJump()
@@ -94,11 +94,13 @@ public class Player : MonoBehaviour {
         //Jumping
         if (Input.GetButtonDown("Jump") && grounded)
         {
-            rb.velocity = new Vector3(rb.velocity.x, jumpStrength, 0);
+            if (anim.GetBool("Running"))
+                jumpBonus += 3.0f;
+            rb.velocity = new Vector3(rb.velocity.x, jumpStrength + jumpBonus, 0);
             anim.SetTrigger("Jump");
             grounded = false;
             anim.SetBool("Grounded", grounded);
-
+            jumpBonus = 0.0f;
         }
     }
 
@@ -131,7 +133,21 @@ public class Player : MonoBehaviour {
             if (!GetComponent<SpriteRenderer>().flipX)
                 rb.velocity = new Vector3(slideForce, rb.velocity.y, 0);
             anim.SetTrigger("Slide");
+            jumpBonus = 5.0f;
+        }
+    }
 
+    //Not sure on this yet.
+    private void HandleFlight()
+    {
+        if (Input.GetButtonDown("FlightButton") && !grounded)
+        {
+            rb.gravityScale = 0.5f;
+        }
+
+        if (Input.GetButtonUp("FlightButton"))
+        {
+            rb.gravityScale = 5.5f;
         }
     }
 }
