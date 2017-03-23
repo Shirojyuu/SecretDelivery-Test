@@ -8,11 +8,12 @@ public class Player : MonoBehaviour {
     public float checkDist = 3.0f;
     public int jumpStrength;
 
-    public Vector2 defaultColSize;
-    public Vector2 slideColSize;
+    public float defaultColSize = 0.095f;
+    public float slideColSize = 0.98f;
 
     private Rigidbody2D rb;
     private Animator anim;
+   
 
     private float speedMod = 1.0f;
 
@@ -25,7 +26,6 @@ public class Player : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        GetComponent<BoxCollider2D>().bounds.size.Set(defaultColSize.x, defaultColSize.y, 0);
 	}
 	
 	// Update is called once per frame
@@ -46,8 +46,25 @@ public class Player : MonoBehaviour {
             anim.SetBool("Grounded", grounded);
 
         Debug.Log(grounded);
+
+        
 	}
 
+    void LateUpdate()
+    {
+        //Consider revision
+        /*
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("VenusSlide"))
+        {
+            GetComponent<BoxCollider2D>().offset = new Vector2(0, slideColSize);
+        }
+
+        else
+        {
+            GetComponent<BoxCollider2D>().offset = new Vector2(0, defaultColSize);
+        } 
+        */
+    }
     void FixedUpdate()
     {
         //Horizontal Movement
@@ -67,6 +84,13 @@ public class Player : MonoBehaviour {
         Vector3 totalMovement = new Vector3(xMove * speed * speedMod, 0, 0);
         rb.AddForce(totalMovement);
 
+        HandleJump();
+        HandleRun(xMove);
+        HandleSlide();   
+    }
+
+    private void HandleJump()
+    {
         //Jumping
         if (Input.GetButtonDown("Jump") && grounded)
         {
@@ -76,9 +100,12 @@ public class Player : MonoBehaviour {
             anim.SetBool("Grounded", grounded);
 
         }
+    }
 
+    private void HandleRun(float xMove)
+    {
         //Running
-        if(Input.GetButtonDown("RunButton") && xMove != 0)
+        if (Input.GetButtonDown("RunButton") && xMove != 0)
         {
             speedMod = runningSpeed;
             running = true;
@@ -91,17 +118,19 @@ public class Player : MonoBehaviour {
             running = false;
             anim.SetBool("Running", running);
         }
+    }
 
+    private void HandleSlide()
+    {
         //Slide!
-        if(Input.GetButtonDown("SlideButton") && grounded)
+        if (Input.GetButtonDown("SlideButton") && grounded)
         {
-            if(GetComponent<SpriteRenderer>().flipX)
+            if (GetComponent<SpriteRenderer>().flipX)
                 rb.velocity = new Vector3(-slideForce, rb.velocity.y, 0);
 
             if (!GetComponent<SpriteRenderer>().flipX)
                 rb.velocity = new Vector3(slideForce, rb.velocity.y, 0);
             anim.SetTrigger("Slide");
-            GetComponent<BoxCollider2D>().bounds.size.Set(slideColSize.x, slideColSize.y, 0);
 
         }
     }
